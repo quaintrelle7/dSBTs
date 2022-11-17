@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+
+.header-js{
+    display: flex;
+    height: 60px;
+    background: #222a35;
+
+    
+}
+
+.h-btn-div{
+  margin-left: 0;
+  display: flex;
+  align-items: flex-start;
+  align-self:fle;
+   height: 60px;
+}
+.header-btn{
+  background: #33ccb3;
+  height:40px;
+  border-radius: 5px;
+  width:8rem;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 10%; 
+  font-weight: bolder;
+}
+
+
+/* Index */
+
+.index{
+  background: azure;
+  top: 0;
+}
+
+.course-gallery{
+  display:flex;
+  border-color: #222a35;
+  border-width: 2px;
+  border-style: solid;
+  width:80%;
+  margin-left: 10%;
+  margin-right:10% ;
+  padding: 20px;
+  height: 20rem;
+  margin-top: 5%;
+  background-color: #222a35;
+  
+
+}
+
+.course-item{
+ 
+  margin:2%;
+  border:2px;
+  border-width: 2px;
+  border-style: solid;
+  align-items: center;
+  background-color: azure;
+  width: fill;
+
+
+}
