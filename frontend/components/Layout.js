@@ -3,11 +3,9 @@ import Header from './Header';
 
 function Layout(props) {
   return (
-    <div className='layout'>
+    <div className='layout' style={{background:"azure"}}>
     <Header/>
     {props.children}
-    {/* <Footer/> */}
-    <h1></h1>
     </div>
   )
 };

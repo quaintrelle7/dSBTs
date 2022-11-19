@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@a16z/contracts": "^0.0.9",
+    "@chainlink/contracts": "^0.5.1",
+    "@openzeppelin/contracts": "^4.8.0",
+    "@truffle/hdwallet-provider": "^2.1.0",
+    "fs-extra": "^10.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.1.0",
+    "solc": "^0.8.17",
+    "web3": "^1.8.0"
+  }
+}
